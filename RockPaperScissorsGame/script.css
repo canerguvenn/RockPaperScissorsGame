@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@400;700&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height:auto;
+    border: thin solid black;
+    
+}
+.baslik{
+    color: grey;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1rem;
+}
+#container img{
+    flex: 1 1 10rem;
+    max-width: 20%;
+}
+button{
+    margin: 1rem;
+    padding: 1.64rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.basarisiz{
+    color: red;
+    font-size: 4rem;
+}
+.berabere{
+    color: yellow;
+    font-size: 4rem;
+}
+.basarili{
+    color: rgb(62, 211, 62);
+    font-size: 4rem;
+}
